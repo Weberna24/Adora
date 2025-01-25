@@ -87,7 +87,7 @@ html{
 .hero{
   width: 100%;
   height: 80vh;
-  background-image: url("/Adora/images/adora3.jpg");
+  background-image: url("images/adora3.jpg");
   background-size: contain;
   background-position: center;
   padding-top: 7rem;
@@ -195,7 +195,7 @@ html{
   }
 
   .welcome-container{
-    width: 80%;
+    width: 100%;
     display: flex;
     margin-top: 6rem;
     align-items: center;
@@ -472,20 +472,25 @@ html{
     padding: 0 1rem;
   }
 
-  .welcome-content{
+  .welcome-section{
     width: 100%;
-    height: 100%;
-    gap: 2rem;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 0.5fr;
-    justify-items: center;
-    
+    display: flex;
+    padding: 2rem 1rem;
+    justify-content: center;
+  }
+
+  .welcome-container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .welcome-card{
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
   }
 
   .welcome-card video{
